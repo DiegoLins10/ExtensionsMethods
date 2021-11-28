@@ -13,6 +13,9 @@ namespace ExtensionsMethods
             Console.WriteLine(dt2.ElapsedTime());
             TimeSpan duration = DateTime.Now.TimeOfDay;
             Console.WriteLine(duration);
+            Console.WriteLine("-------------------------------------");
+            string s1 = "Bom dia queridos estudantes!";
+            Console.WriteLine(s1.Cut(10));
         }
     }
 }
